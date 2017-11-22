@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Fernando Rosa">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-        <link  rel="stylesheet" href="css/style.css">
-        <title>Quote generator</title>
-    </head>
-    <body>
-<div class="box" id="box1">
-	<div class="content">
-		<p id="quote">Click Next quote to genarate the first quote</p>
-		<p id="author"><strong></strong></p><button id="random" onclick="generator()">Next quote</button>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Fernando Rosa" name="author">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Quote generator</title>
+</head>
+<body>
+	<div class="box" id="box1">
+		<div class="content">
+			<p id="quote">Click Next quote to genarate the first quote</p>
+			<p id="author"><strong></strong></p><button id="random" onclick="generator(), random()">Next quote</button>
+			<div id="buttonC">
+				<a id="twitterButton" onclick="twitter()"><img src="img/Twitter-Button.png"></a>
+			</div>
+		</div>
 	</div>
-</div>
-<div class="sign" id="sign">
-	<h2>Fernando Rosa</h2>
-</div>        
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/javaScript.js">
-</script>
+	<div class="sign" id="sign">
+		<h2>Fernando Rosa</h2>
+	</div>
+	<script src="js/jquery-3.2.1.js">
+	</script> 
+	<script src="js/javaScript.js">
+	</script>
 </body>
 </html>

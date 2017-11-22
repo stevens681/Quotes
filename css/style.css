@@ -2,9 +2,9 @@ body {
 	background-color: white;
 }
 .box {
-	width: 50%;
+	width: 70%;
     margin: auto;
-	left: 25%;
+	left: 15%;
 	top: 20%;
 	position: absolute;
 	border-radius: 5px;
@@ -25,13 +25,13 @@ body {
 }
 p {
 	color: white;
-	font-weight: 10px;
+	font-weight: 100;
 	margin: 20px;
-	font-size: 2vw;
+	font-size: 3vw;
     font-family: 'Indie Flower', cursive;
 }
 #random {
-	border: 2px solid #e7e7e7;
+	border: 2px solid white;
 	color: aliceblue;
 	background: transparent;
 	padding: 16px 32px;
@@ -47,8 +47,8 @@ p {
 	bottom: 10px;
 }
 #random:hover {
-	background-color: #fcf5f5;
-	color: #000000;
+	background-color: white;
+	color: black;
 }
 .sign {
     position: absolute;
@@ -67,3 +67,12 @@ p {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
 
 }
+img{
+    height: 5%;
+    width: 5%;
+    
+}
+#twitterButton{
+    cursor: pointer;
+}
+
